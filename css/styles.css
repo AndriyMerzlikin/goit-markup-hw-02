@@ -41,12 +41,15 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-txt-clr);
+  color: var(--secondary-txt-clr);
+  background-color: var(--main-bg-clr);
 }
 .main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--main-txt-clr);
 }
@@ -68,8 +71,9 @@ body {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--active-btn-clr);
 }
 .second-header-logo {
@@ -84,7 +88,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  background: var(--accent-color);
+  color: var(--accent-color);
 }
 /* Contacts panel */
 .phone-number,
@@ -126,6 +130,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-bg-clr);
 }
@@ -146,11 +151,12 @@ body {
   background: var(--accent-color);
 }
 /* PORTFOLIO */
+/* Team section */
 .team-section-style {
   background: var(--teamcard-bg-clr);
 }
 .team-card-background {
-  background: var(--teamcard-bg-clr);
+  background: var(--main-bg-clr);
 }
 /* Footer */
 .footer-comments {
